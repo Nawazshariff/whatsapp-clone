@@ -1,0 +1,18 @@
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+
+app-chat-header {
+  border-bottom: 1px solid lightgray;
+}
+
+app-chat-body {
+  flex: 1;
+}
+
+app-chat-footer {
+  border-top: 1px solid lightgray;
+}

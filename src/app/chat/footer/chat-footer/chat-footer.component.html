@@ -1,0 +1,12 @@
+<div class="chat-footer">
+  <span>
+    <i class="fa fa-smile-o" aria-hidden="true"></i>
+  </span>
+  <form class="middle" #messageForm="ngForm" (ngSubmit)="sendMessage(messageForm)">
+    <input type="text" name="message" ngModel>
+    <button type="submit">Send Message</button>
+  </form>
+  <span>
+    <i class="fa fa-microphone" aria-hidden="true"></i>
+  </span>
+</div>

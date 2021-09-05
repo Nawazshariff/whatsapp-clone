@@ -1,0 +1,13 @@
+<section id="section-chat-body">
+  <div *ngFor="let message of messages" [ngClass]="message.recieved ? 'section-recieve-message' : 'section-sent-message'">
+      <h6>{{message.name}}</h6>
+      <div class="message">
+        <p>
+          {{message.message}}
+        </p>
+        <span class="message-date">
+        {{message.timestamp}}
+        </span>
+      </div>
+  </div>
+</section>
